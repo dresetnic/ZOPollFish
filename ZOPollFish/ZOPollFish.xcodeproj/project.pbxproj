@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1787263868AE4555EE381526 /* ZOWebScreenConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4955F057F9777AEF0D81FDF5 /* ZOWebScreenConfiguratorTests.swift */; };
+		1E0DE7288C6B57272AE024D6 /* ZOWebScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4726353BECF378BC18360 /* ZOWebScreenInteractor.swift */; };
+		237328B11ED16CF8961C1CB8 /* ZOWebScreenRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6628B19C931A70B05C1D825E /* ZOWebScreenRouterInput.swift */; };
+		265FC302527A439F8D0CAFF0 /* ZOWebScreenPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5198B5112484C9A0CB5F0E20 /* ZOWebScreenPresenterTests.swift */; };
+		2BEC89E0F36DF85AD7F12BFC /* ZOWebScreenInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0E9C987363FFC6D7495E5D /* ZOWebScreenInteractorTests.swift */; };
+		32E166EC8002FD4D6C329B32 /* ZOWebScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49070745ED17D4C4BA92A79 /* ZOWebScreenRouter.swift */; };
+		372189FAEC297B571FE435EE /* ZOWebScreenInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5F6EFF7B86F42D78979FE5 /* ZOWebScreenInteractorOutput.swift */; };
+		5845D210D5A24E97B98C89C9 /* ZOWebScreenViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D25C28C21566D1AEDC4FD9A /* ZOWebScreenViewTests.swift */; };
+		5B21777D03B2F28F5FA6C12C /* ZOWebScreenConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0623ACEF275E08844C217C8 /* ZOWebScreenConfigurator.swift */; };
+		5ED1A01923DA1C8600DA4432 /* ZOWebScreenModuleInitializerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED1A01823DA1C8600DA4432 /* ZOWebScreenModuleInitializerTests.swift */; };
+		5ED1A03B23DAD86600DA4432 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED1A03A23DAD86600DA4432 /* Media.xcassets */; };
+		5ED1A03E23DADBB200DA4432 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED1A03A23DAD86600DA4432 /* Media.xcassets */; };
+		5ED6CA6823D8F9BC002EBD47 /* ZOPollFish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED6CA5E23D8F9BC002EBD47 /* ZOPollFish.framework */; };
+		5ED6CA6D23D8F9BC002EBD47 /* ZOManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED6CA6C23D8F9BC002EBD47 /* ZOManagerTests.swift */; };
+		5ED6CA6F23D8F9BC002EBD47 /* ZOPollFish.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ED6CA6123D8F9BC002EBD47 /* ZOPollFish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ED6CA7A23D8FD38002EBD47 /* ZOParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED6CA7923D8FD38002EBD47 /* ZOParameters.swift */; };
+		5ED6CA7C23D8FE1A002EBD47 /* ZOManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED6CA7B23D8FE1A002EBD47 /* ZOManagerProtocol.swift */; };
+		5ED6CA7E23D8FE2A002EBD47 /* ZOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED6CA7D23D8FE2A002EBD47 /* ZOManager.swift */; };
+		5ED8ABD041FE12B6629AFB11 /* ZOWebScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE44220E1495E498933ED36 /* ZOWebScreenViewController.swift */; };
+		8DA69E658A83E9A74850833D /* ZOWebScreenViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681C22E6BE88C388FADDF88 /* ZOWebScreenViewInput.swift */; };
+		98EA13E9857BCB7A8307BA8D /* ZOWebScreenModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820318C1933D9D5DDA57B5B2 /* ZOWebScreenModuleInput.swift */; };
+		A019465D9D762EA03974F375 /* ZOWebScreenViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2DDD2505D62FF2190A6036 /* ZOWebScreenViewOutput.swift */; };
+		C86A3090589787B5E4B8FB6B /* ZOWebScreenInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E435789706628DDCF2639181 /* ZOWebScreenInitializer.swift */; };
+		D647132D4CF7CDFB01901FEE /* ZOWebScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B9885772C374A61676367F /* ZOWebScreenPresenter.swift */; };
+		E788AB5C372D333D11E342E6 /* ZOWebScreenRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B08B351B49B5FBBBAE02DB5 /* ZOWebScreenRouterTests.swift */; };
+		F7E97E1BE451E3A7AB1F2C5F /* ZOWebScreenInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428B56BC8858B5BB2137A2EF /* ZOWebScreenInteractorInput.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ED6CA6923D8F9BC002EBD47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ED6CA5523D8F9BC002EBD47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ED6CA5D23D8F9BC002EBD47;
+			remoteInfo = ZOPollFish;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14B9885772C374A61676367F /* ZOWebScreenPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZOWebScreenPresenter.swift; sourceTree = "<group>"; };
+		1B5F6EFF7B86F42D78979FE5 /* ZOWebScreenInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZOWebScreenInteractorOutput.swift; sourceTree = "<group>"; };
+		3B08B351B49B5FBBBAE02DB5 /* ZOWebScreenRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZOWebScreenRouterTests.swift; sourceTree = "<group>"; };
+		428B56BC8858B5BB2137A2EF /* ZOWebScreenInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZOWebScreenInteractorInput.swift; sourceTree = "<group>"; };
+		4955F057F9777AEF0D81FDF5 /* ZOWebScreenConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZOWebScreenConfiguratorTests.swift; sourceTree = "<group>"; };
+		4D2DDD2505D62FF2190A6036 /* ZOWebScreenViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZOWebScreenViewOutput.swift; sourceTree = "<group>"; };
+		5198B5112484C9A0CB5F0E20 /* ZOWebScreenPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZOWebScreenPresenterTests.swift; sourceTree = "<group>"; };
+		5ED1A01823DA1C8600DA4432 /* ZOWebScreenModuleInitializerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZOWebScreenModuleInitializerTests.swift; sourceTree = "<group>"; };
+		5ED1A03A23DAD86600DA4432 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		5ED6CA5E23D8F9BC002EBD47 /* ZOPollFish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZOPollFish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED6CA6123D8F9BC002EBD47 /* ZOPollFish.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZOPollFish.h; sourceTree = "<group>"; };
+		5ED6CA6223D8F9BC002EBD47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ED6CA6723D8F9BC002EBD47 /* ZOPollFishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZOPollFishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED6CA6C23D8F9BC002EBD47 /* ZOManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZOManagerTests.swift; sourceTree = "<group>"; };
+		5ED6CA6E23D8F9BC002EBD47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ED6CA7923D8FD38002EBD47 /* ZOParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZOParameters.swift; sourceTree = "<group>"; };
+		5ED6CA7B23D8FE1A002EBD47 /* ZOManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZOManagerProtocol.swift; sourceTree = "<group>"; };
+		5ED6CA7D23D8FE2A002EBD47 /* ZOManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZOManager.swift; sourceTree = "<group>"; };
+		6628B19C931A70B05C1D825E /* ZOWebScreenRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZOWebScreenRouterInput.swift; sourceTree = "<group>"; };
+		7A0E9C987363FFC6D7495E5D /* ZOWebScreenInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZOWebScreenInteractorTests.swift; sourceTree = "<group>"; };
+		7D25C28C21566D1AEDC4FD9A /* ZOWebScreenViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZOWebScreenViewTests.swift; sourceTree = "<group>"; };
+		820318C1933D9D5DDA57B5B2 /* ZOWebScreenModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZOWebScreenModuleInput.swift; sourceTree = "<group>"; };
+		A49070745ED17D4C4BA92A79 /* ZOWebScreenRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZOWebScreenRouter.swift; sourceTree = "<group>"; };
+		D0623ACEF275E08844C217C8 /* ZOWebScreenConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZOWebScreenConfigurator.swift; sourceTree = "<group>"; };
+		DFE44220E1495E498933ED36 /* ZOWebScreenViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZOWebScreenViewController.swift; sourceTree = "<group>"; };
+		E435789706628DDCF2639181 /* ZOWebScreenInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZOWebScreenInitializer.swift; sourceTree = "<group>"; };
+		E4C4726353BECF378BC18360 /* ZOWebScreenInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZOWebScreenInteractor.swift; sourceTree = "<group>"; };
+		E681C22E6BE88C388FADDF88 /* ZOWebScreenViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZOWebScreenViewInput.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ED6CA5B23D8F9BC002EBD47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED6CA6423D8F9BC002EBD47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED6CA6823D8F9BC002EBD47 /* ZOPollFish.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CE310715C439F82FD8D894A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7D25C28C21566D1AEDC4FD9A /* ZOWebScreenViewTests.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		38A6AAAF6AC344828E212738 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				4955F057F9777AEF0D81FDF5 /* ZOWebScreenConfiguratorTests.swift */,
+				5ED1A01823DA1C8600DA4432 /* ZOWebScreenModuleInitializerTests.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		4E31E6BF68918F762F91F5CD /* WebScreen */ = {
+			isa = PBXGroup;
+			children = (
+				38A6AAAF6AC344828E212738 /* Configurator */,
+				1CE310715C439F82FD8D894A /* View */,
+				A76E65F93B576D7C1FC3F467 /* Interactor */,
+				FE199F99E7CAA98BC47E58CB /* Presenter */,
+				9F4AD415D75A94ABA82442A7 /* Router */,
+			);
+			path = WebScreen;
+			sourceTree = "<group>";
+		};
+		5ED6CA5423D8F9BC002EBD47 = {
+			isa = PBXGroup;
+			children = (
+				5ED6CA6023D8F9BC002EBD47 /* ZOPollFish */,
+				5ED6CA6B23D8F9BC002EBD47 /* ZOPollFishTests */,
+				5ED6CA5F23D8F9BC002EBD47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ED6CA5F23D8F9BC002EBD47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ED6CA5E23D8F9BC002EBD47 /* ZOPollFish.framework */,
+				5ED6CA6723D8F9BC002EBD47 /* ZOPollFishTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ED6CA6023D8F9BC002EBD47 /* ZOPollFish */ = {
+			isa = PBXGroup;
+			children = (
+				5ED6CA6123D8F9BC002EBD47 /* ZOPollFish.h */,
+				5ED6CA6223D8F9BC002EBD47 /* Info.plist */,
+				5ED6CA7B23D8FE1A002EBD47 /* ZOManagerProtocol.swift */,
+				5ED6CA7D23D8FE2A002EBD47 /* ZOManager.swift */,
+				5ED6CA7823D8FD13002EBD47 /* Models */,
+				E830B3561E043A40F462DC72 /* Modules */,
+				5ED1A03A23DAD86600DA4432 /* Media.xcassets */,
+			);
+			path = ZOPollFish;
+			sourceTree = "<group>";
+		};
+		5ED6CA6B23D8F9BC002EBD47 /* ZOPollFishTests */ = {
+			isa = PBXGroup;
+			children = (
+				5ED6CA6C23D8F9BC002EBD47 /* ZOManagerTests.swift */,
+				4E31E6BF68918F762F91F5CD /* WebScreen */,
+				5ED6CA6E23D8F9BC002EBD47 /* Info.plist */,
+			);
+			path = ZOPollFishTests;
+			sourceTree = "<group>";
+		};
+		5ED6CA7823D8FD13002EBD47 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5ED6CA7923D8FD38002EBD47 /* ZOParameters.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6050ED8899EC16222D138D4D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				6628B19C931A70B05C1D825E /* ZOWebScreenRouterInput.swift */,
+				A49070745ED17D4C4BA92A79 /* ZOWebScreenRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		6FDF12A5C97786C04597F513 /* WebScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EDA69F252311BD0E4895C7CB /* View */,
+				75884042FFE0C1590FFDA990 /* Presenter */,
+				A74A42FCCE8FEF566D40572A /* Interactor */,
+				6050ED8899EC16222D138D4D /* Router */,
+				F06BA3018591137C604FC645 /* Configurator */,
+			);
+			path = WebScreen;
+			sourceTree = "<group>";
+		};
+		75884042FFE0C1590FFDA990 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				820318C1933D9D5DDA57B5B2 /* ZOWebScreenModuleInput.swift */,
+				14B9885772C374A61676367F /* ZOWebScreenPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9F4AD415D75A94ABA82442A7 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3B08B351B49B5FBBBAE02DB5 /* ZOWebScreenRouterTests.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A74A42FCCE8FEF566D40572A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				428B56BC8858B5BB2137A2EF /* ZOWebScreenInteractorInput.swift */,
+				1B5F6EFF7B86F42D78979FE5 /* ZOWebScreenInteractorOutput.swift */,
+				E4C4726353BECF378BC18360 /* ZOWebScreenInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A76E65F93B576D7C1FC3F467 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				7A0E9C987363FFC6D7495E5D /* ZOWebScreenInteractorTests.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E830B3561E043A40F462DC72 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				6FDF12A5C97786C04597F513 /* WebScreen */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		EDA69F252311BD0E4895C7CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E681C22E6BE88C388FADDF88 /* ZOWebScreenViewInput.swift */,
+				4D2DDD2505D62FF2190A6036 /* ZOWebScreenViewOutput.swift */,
+				DFE44220E1495E498933ED36 /* ZOWebScreenViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F06BA3018591137C604FC645 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				D0623ACEF275E08844C217C8 /* ZOWebScreenConfigurator.swift */,
+				E435789706628DDCF2639181 /* ZOWebScreenInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		FE199F99E7CAA98BC47E58CB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				5198B5112484C9A0CB5F0E20 /* ZOWebScreenPresenterTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5ED6CA5923D8F9BC002EBD47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED6CA6F23D8F9BC002EBD47 /* ZOPollFish.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5ED6CA5D23D8F9BC002EBD47 /* ZOPollFish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ED6CA7223D8F9BC002EBD47 /* Build configuration list for PBXNativeTarget "ZOPollFish" */;
+			buildPhases = (
+				5ED6CA5923D8F9BC002EBD47 /* Headers */,
+				5ED6CA5A23D8F9BC002EBD47 /* Sources */,
+				5ED6CA5B23D8F9BC002EBD47 /* Frameworks */,
+				5ED6CA5C23D8F9BC002EBD47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZOPollFish;
+			productName = ZOPollFish;
+			productReference = 5ED6CA5E23D8F9BC002EBD47 /* ZOPollFish.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5ED6CA6623D8F9BC002EBD47 /* ZOPollFishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ED6CA7523D8F9BC002EBD47 /* Build configuration list for PBXNativeTarget "ZOPollFishTests" */;
+			buildPhases = (
+				5ED6CA6323D8F9BC002EBD47 /* Sources */,
+				5ED6CA6423D8F9BC002EBD47 /* Frameworks */,
+				5ED6CA6523D8F9BC002EBD47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ED6CA6A23D8F9BC002EBD47 /* PBXTargetDependency */,
+			);
+			name = ZOPollFishTests;
+			productName = ZOPollFishTests;
+			productReference = 5ED6CA6723D8F9BC002EBD47 /* ZOPollFishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ED6CA5523D8F9BC002EBD47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Dragos Resetnic";
+				TargetAttributes = {
+					5ED6CA5D23D8F9BC002EBD47 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					5ED6CA6623D8F9BC002EBD47 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5ED6CA5823D8F9BC002EBD47 /* Build configuration list for PBXProject "ZOPollFish" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5ED6CA5423D8F9BC002EBD47;
+			productRefGroup = 5ED6CA5F23D8F9BC002EBD47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ED6CA5D23D8F9BC002EBD47 /* ZOPollFish */,
+				5ED6CA6623D8F9BC002EBD47 /* ZOPollFishTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ED6CA5C23D8F9BC002EBD47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED1A03B23DAD86600DA4432 /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED6CA6523D8F9BC002EBD47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED1A03E23DADBB200DA4432 /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ED6CA5A23D8F9BC002EBD47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA69E658A83E9A74850833D /* ZOWebScreenViewInput.swift in Sources */,
+				A019465D9D762EA03974F375 /* ZOWebScreenViewOutput.swift in Sources */,
+				5ED8ABD041FE12B6629AFB11 /* ZOWebScreenViewController.swift in Sources */,
+				98EA13E9857BCB7A8307BA8D /* ZOWebScreenModuleInput.swift in Sources */,
+				D647132D4CF7CDFB01901FEE /* ZOWebScreenPresenter.swift in Sources */,
+				F7E97E1BE451E3A7AB1F2C5F /* ZOWebScreenInteractorInput.swift in Sources */,
+				5ED6CA7C23D8FE1A002EBD47 /* ZOManagerProtocol.swift in Sources */,
+				372189FAEC297B571FE435EE /* ZOWebScreenInteractorOutput.swift in Sources */,
+				1E0DE7288C6B57272AE024D6 /* ZOWebScreenInteractor.swift in Sources */,
+				237328B11ED16CF8961C1CB8 /* ZOWebScreenRouterInput.swift in Sources */,
+				32E166EC8002FD4D6C329B32 /* ZOWebScreenRouter.swift in Sources */,
+				5ED6CA7A23D8FD38002EBD47 /* ZOParameters.swift in Sources */,
+				5ED6CA7E23D8FE2A002EBD47 /* ZOManager.swift in Sources */,
+				5B21777D03B2F28F5FA6C12C /* ZOWebScreenConfigurator.swift in Sources */,
+				C86A3090589787B5E4B8FB6B /* ZOWebScreenInitializer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED6CA6323D8F9BC002EBD47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED6CA6D23D8F9BC002EBD47 /* ZOManagerTests.swift in Sources */,
+				1787263868AE4555EE381526 /* ZOWebScreenConfiguratorTests.swift in Sources */,
+				5ED1A01923DA1C8600DA4432 /* ZOWebScreenModuleInitializerTests.swift in Sources */,
+				5845D210D5A24E97B98C89C9 /* ZOWebScreenViewTests.swift in Sources */,
+				2BEC89E0F36DF85AD7F12BFC /* ZOWebScreenInteractorTests.swift in Sources */,
+				265FC302527A439F8D0CAFF0 /* ZOWebScreenPresenterTests.swift in Sources */,
+				E788AB5C372D333D11E342E6 /* ZOWebScreenRouterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ED6CA6A23D8F9BC002EBD47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ED6CA5D23D8F9BC002EBD47 /* ZOPollFish */;
+			targetProxy = 5ED6CA6923D8F9BC002EBD47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5ED6CA7023D8F9BC002EBD47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5ED6CA7123D8F9BC002EBD47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5ED6CA7323D8F9BC002EBD47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = M4A2Y7ZWMN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZOPollFish/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dreamcraft.ZOPollFish;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5ED6CA7423D8F9BC002EBD47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = M4A2Y7ZWMN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZOPollFish/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dreamcraft.ZOPollFish;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5ED6CA7623D8F9BC002EBD47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4A2Y7ZWMN;
+				INFOPLIST_FILE = ZOPollFishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dreamcraft.ZOPollFishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5ED6CA7723D8F9BC002EBD47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4A2Y7ZWMN;
+				INFOPLIST_FILE = ZOPollFishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dreamcraft.ZOPollFishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ED6CA5823D8F9BC002EBD47 /* Build configuration list for PBXProject "ZOPollFish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED6CA7023D8F9BC002EBD47 /* Debug */,
+				5ED6CA7123D8F9BC002EBD47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ED6CA7223D8F9BC002EBD47 /* Build configuration list for PBXNativeTarget "ZOPollFish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED6CA7323D8F9BC002EBD47 /* Debug */,
+				5ED6CA7423D8F9BC002EBD47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ED6CA7523D8F9BC002EBD47 /* Build configuration list for PBXNativeTarget "ZOPollFishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED6CA7623D8F9BC002EBD47 /* Debug */,
+				5ED6CA7723D8F9BC002EBD47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5ED6CA5523D8F9BC002EBD47 /* Project object */;
+}

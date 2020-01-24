@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ED19FF723D9C24600DA4432 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED19FF623D9C24600DA4432 /* AppDelegate.swift */; };
+		5ED19FF923D9C24600DA4432 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED19FF823D9C24600DA4432 /* SceneDelegate.swift */; };
+		5ED19FFB23D9C24600DA4432 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED19FFA23D9C24600DA4432 /* ViewController.swift */; };
+		5ED19FFE23D9C24600DA4432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ED19FFC23D9C24600DA4432 /* Main.storyboard */; };
+		5ED1A00023D9C24600DA4432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED19FFF23D9C24600DA4432 /* Assets.xcassets */; };
+		5ED1A00323D9C24600DA4432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ED1A00123D9C24600DA4432 /* LaunchScreen.storyboard */; };
+		5ED1A01423D9C33300DA4432 /* ZOPollFish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED1A01023D9C2A900DA4432 /* ZOPollFish.framework */; };
+		5ED1A01523D9C33300DA4432 /* ZOPollFish.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED1A01023D9C2A900DA4432 /* ZOPollFish.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ED1A00F23D9C2A900DA4432 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ED1A00A23D9C2A900DA4432 /* ZOPollFish.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5ED6CA5E23D8F9BC002EBD47;
+			remoteInfo = ZOPollFish;
+		};
+		5ED1A01123D9C2A900DA4432 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ED1A00A23D9C2A900DA4432 /* ZOPollFish.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5ED6CA6723D8F9BC002EBD47;
+			remoteInfo = ZOPollFishTests;
+		};
+		5ED1A03723DAD42B00DA4432 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ED1A00A23D9C2A900DA4432 /* ZOPollFish.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5ED1A01E23DACD7A00DA4432;
+			remoteInfo = ZOPollFishUITests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5ED1A01623D9C33300DA4432 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5ED1A01523D9C33300DA4432 /* ZOPollFish.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5ED19FF323D9C24600DA4432 /* ZOPollfishSDKSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZOPollfishSDKSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED19FF623D9C24600DA4432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5ED19FF823D9C24600DA4432 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5ED19FFA23D9C24600DA4432 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5ED19FFD23D9C24600DA4432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5ED19FFF23D9C24600DA4432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5ED1A00223D9C24600DA4432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5ED1A00423D9C24600DA4432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ED1A00A23D9C2A900DA4432 /* ZOPollFish.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZOPollFish.xcodeproj; path = ../ZOPollFish/ZOPollFish.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ED19FF023D9C24600DA4432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED1A01423D9C33300DA4432 /* ZOPollFish.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ED19FEA23D9C24600DA4432 = {
+			isa = PBXGroup;
+			children = (
+				5ED1A00A23D9C2A900DA4432 /* ZOPollFish.xcodeproj */,
+				5ED19FF523D9C24600DA4432 /* ZOPollfishSDKSample */,
+				5ED19FF423D9C24600DA4432 /* Products */,
+				5ED1A01323D9C33300DA4432 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5ED19FF423D9C24600DA4432 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ED19FF323D9C24600DA4432 /* ZOPollfishSDKSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ED19FF523D9C24600DA4432 /* ZOPollfishSDKSample */ = {
+			isa = PBXGroup;
+			children = (
+				5ED19FF623D9C24600DA4432 /* AppDelegate.swift */,
+				5ED19FF823D9C24600DA4432 /* SceneDelegate.swift */,
+				5ED19FFA23D9C24600DA4432 /* ViewController.swift */,
+				5ED19FFC23D9C24600DA4432 /* Main.storyboard */,
+				5ED19FFF23D9C24600DA4432 /* Assets.xcassets */,
+				5ED1A00123D9C24600DA4432 /* LaunchScreen.storyboard */,
+				5ED1A00423D9C24600DA4432 /* Info.plist */,
+			);
+			path = ZOPollfishSDKSample;
+			sourceTree = "<group>";
+		};
+		5ED1A00B23D9C2A900DA4432 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ED1A01023D9C2A900DA4432 /* ZOPollFish.framework */,
+				5ED1A01223D9C2A900DA4432 /* ZOPollFishTests.xctest */,
+				5ED1A03823DAD42B00DA4432 /* ZOPollFishUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ED1A01323D9C33300DA4432 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ED19FF223D9C24600DA4432 /* ZOPollfishSDKSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ED1A00723D9C24600DA4432 /* Build configuration list for PBXNativeTarget "ZOPollfishSDKSample" */;
+			buildPhases = (
+				5ED19FEF23D9C24600DA4432 /* Sources */,
+				5ED19FF023D9C24600DA4432 /* Frameworks */,
+				5ED19FF123D9C24600DA4432 /* Resources */,
+				5ED1A01623D9C33300DA4432 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZOPollfishSDKSample;
+			productName = ZOPollfishSDKSample;
+			productReference = 5ED19FF323D9C24600DA4432 /* ZOPollfishSDKSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ED19FEB23D9C24600DA4432 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Dragos Resetnic";
+				TargetAttributes = {
+					5ED19FF223D9C24600DA4432 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5ED19FEE23D9C24600DA4432 /* Build configuration list for PBXProject "ZOPollfishSDKSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5ED19FEA23D9C24600DA4432;
+			productRefGroup = 5ED19FF423D9C24600DA4432 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5ED1A00B23D9C2A900DA4432 /* Products */;
+					ProjectRef = 5ED1A00A23D9C2A900DA4432 /* ZOPollFish.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				5ED19FF223D9C24600DA4432 /* ZOPollfishSDKSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5ED1A01023D9C2A900DA4432 /* ZOPollFish.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ZOPollFish.framework;
+			remoteRef = 5ED1A00F23D9C2A900DA4432 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5ED1A01223D9C2A900DA4432 /* ZOPollFishTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ZOPollFishTests.xctest;
+			remoteRef = 5ED1A01123D9C2A900DA4432 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5ED1A03823DAD42B00DA4432 /* ZOPollFishUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ZOPollFishUITests.xctest;
+			remoteRef = 5ED1A03723DAD42B00DA4432 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ED19FF123D9C24600DA4432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED1A00323D9C24600DA4432 /* LaunchScreen.storyboard in Resources */,
+				5ED1A00023D9C24600DA4432 /* Assets.xcassets in Resources */,
+				5ED19FFE23D9C24600DA4432 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ED19FEF23D9C24600DA4432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED19FFB23D9C24600DA4432 /* ViewController.swift in Sources */,
+				5ED19FF723D9C24600DA4432 /* AppDelegate.swift in Sources */,
+				5ED19FF923D9C24600DA4432 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5ED19FFC23D9C24600DA4432 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ED19FFD23D9C24600DA4432 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5ED1A00123D9C24600DA4432 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ED1A00223D9C24600DA4432 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5ED1A00523D9C24600DA4432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5ED1A00623D9C24600DA4432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ED1A00823D9C24600DA4432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4A2Y7ZWMN;
+				INFOPLIST_FILE = ZOPollfishSDKSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dreamcraft.ZOPollfishSDKSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5ED1A00923D9C24600DA4432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4A2Y7ZWMN;
+				INFOPLIST_FILE = ZOPollfishSDKSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dreamcraft.ZOPollfishSDKSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ED19FEE23D9C24600DA4432 /* Build configuration list for PBXProject "ZOPollfishSDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED1A00523D9C24600DA4432 /* Debug */,
+				5ED1A00623D9C24600DA4432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ED1A00723D9C24600DA4432 /* Build configuration list for PBXNativeTarget "ZOPollfishSDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED1A00823D9C24600DA4432 /* Debug */,
+				5ED1A00923D9C24600DA4432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5ED19FEB23D9C24600DA4432 /* Project object */;
+}
