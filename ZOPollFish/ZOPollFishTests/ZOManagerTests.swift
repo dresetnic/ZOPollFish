@@ -45,19 +45,6 @@ class ZOManagerTests: XCTestCase {
         XCTAssertTrue(!rotated, "rotated method should not call openCompletion ")
     }
     
-//    func testHandleOrientation(){
-//
-//        var rotated = false
-//
-//         manager.openCompletion = { (_) in
-//             rotated = true
-//         }
-//
-//        manager.handle(orientation: .portrait)
-//
-//        XCTAssertTrue(rotated, "rotated method should call openCompletion ")
-//    }
-    
     func testSetupWithMethod(){
                 
         XCTAssertNotNil(manager.closeCompletion)
@@ -114,18 +101,6 @@ class ZOManagerTests: XCTestCase {
 
         self.manager.cleanView()
         XCTAssertNil(self.manager.viewController)
-    }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
     }
 
     class WebScreenViewControllerMock: WebScreenViewController {
