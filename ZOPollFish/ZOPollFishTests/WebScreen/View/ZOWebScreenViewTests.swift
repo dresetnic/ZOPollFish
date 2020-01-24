@@ -8,11 +8,18 @@
 
 import XCTest
 @testable import ZOPollFish
+import WebKit
+
+enum TestError: Error {
+    case anyError
+}
 
 class WebScreenViewTests: XCTestCase {
     
     let view = WebScreenViewController()
     let presenter = MockPresenter()
+    let navigation = WKNavigation()
+
     
     let mockParameters = Parameters(parameter1: "1", parameter2: "2", adIdentifier: "3")
 
@@ -34,9 +41,20 @@ class WebScreenViewTests: XCTestCase {
     
     func testSetupConstraints(){
         self.view.viewDidLoad()
-        
     }
     
+    func testWebViewSuccessRequest(){
+        self.view.webView(self.view.webWiew, didFinish: navigation)
+        XCTAssertTrue(self.presenter.methodWasCalled)
+    }
+    
+    func testWebViewFailRequest(){
+        self.view.webView(self.view.webWiew, didFinish: navigation)
+        self.view.webView(self.view.webWiew, didFailProvisionalNavigation: navigation, withError: TestError.anyError)
+        
+        XCTAssertTrue(self.presenter.methodWasCalled)
+    }
+
     func testViewDidLoad(){
         self.view.viewDidLoad()
         XCTAssertTrue(self.presenter.methodWasCalled, "viewDidLoad() shold called viewIsReady on presenter")
